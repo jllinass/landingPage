@@ -1,35 +1,14 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a Jllinas</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <h1 class="titulo">Joan Llinàs <span>tutoriales</span></h1>
-    </header>
-    <div class="bg-secundario">
-        <nav class="navegacion-principal contenedor">
-            <a href="index.html">Home</a>
-            <a href="tutoriales.html">Tutoriales</a>
-            <a href="guias.html">Guías</a>
-            <a href="informacion.html">Información</a>
-            <a href="contacsto.html">Contacto</a>
-        </nav>
-    </div>
+<?php 
+    include 'db.php';
+    include 'header.php';
+?> 
     <section class="hero">
         <div class="contenido-hero">
             <h2>Formación</h2>
         <div class="informacion">
             <p>Aprende</p>
         </div>
-        <a class="boton" href="tutoriales.html">Tutoriales</a>
+        <a class="boton" href="tutoriales.php">Tutoriales</a>
     </div>
     </section>
     <main class="contenedor sombra">
@@ -71,7 +50,7 @@
                 </div>
                 <p>Guías por si estás empezando.</p>
             </section>
-            </div>
+            </div>homePage
         <section>
             <h2>Contacto</h2>
             <form class="formulario" action="">
@@ -110,8 +89,6 @@
             </form>
         </section>
     </main>
-    <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>
-</body>
-</html>
+<?php
+    include 'footer.php';
+?>
