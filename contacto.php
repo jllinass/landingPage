@@ -4,7 +4,7 @@
 <h1>Contacto</h1>
 <main>
     <section>
-            <form class="formulario" action="createContact.php">
+            <form class="formulario" action="createContact.php" method="POST">
                 <fieldset>
                     <legend>Cóntactame</legend>
                     <div class="contenedor-campos">
@@ -17,7 +17,7 @@
                     <div class="campo">
                         <div>
                             <label for="">Teléfono</label>
-                            <input class="input-text" type="tel" name="teléfono" placeholder="Tu teléfono">
+                            <input class="input-text" type="tel" name="telefono" placeholder="Tu teléfono">
                         </div>
                     </div>
                     <div class="campo">
