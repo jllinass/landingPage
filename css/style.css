@@ -283,3 +283,13 @@ footer{
 .fila.par{
     background-color: rgb(240, 240, 216);
 }
+
+.visualitzar{
+    font-size: 3rem;
+    margin-bottom: 2%;
+}
+
+.missatges{
+    text-align: center;
+    margin-top: 3%;
+}
